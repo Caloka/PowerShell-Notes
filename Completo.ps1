@@ -1,7 +1,7 @@
 ﻿# Importar o módulo Selenium WebDriver
 
-$Path = "C:\Users\B355992\Desktop\TESTES NO POWERSHELL\Files"
-$Path_exe = "C:\Users\B355992\Desktop\TESTES NO POWERSHELL\Files\chromedriver.exe"
+$Path = "C:\Users\Desktop\TESTES NO POWERSHELL\Files"
+$Path_exe = "C:\Users\Desktop\TESTES NO POWERSHELL\Files\chromedriver.exe"
 
 Add-Type -Path "$Path\WebDriver.dll"
 
