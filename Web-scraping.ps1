@@ -1,4 +1,4 @@
-﻿# Web-Scrape with powershell
+﻿# Web-Scrape with powershell usando o cmdlet 'Invoke-WebRequest'
 
 $var = Invoke-WebRequest 'www.google.com'
 $Status = $var.StatusCode | Get-Unique
