@@ -1,13 +1,10 @@
 ﻿# Importar o módulo Selenium WebDriver
-$Path = "C:\Users\B355992\Desktop\TESTES NO POWERSHELL\Selenium\lib\net45\WebDriver.dll"
+$Path = "C:\Users\Desktop\TESTES NO POWERSHELL\Selenium\lib\net45\WebDriver.dll"
 
 Import-Module $Path
 
 Add-Type -Path $Path_sel
 $ChromeOptions = New-Object OpenQA.Selenium.Chrome.ChromeOptions
-
-
-
 
 
 # Importar as classes necessárias
